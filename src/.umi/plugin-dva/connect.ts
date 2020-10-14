@@ -6,10 +6,10 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from '/Users/zhijielu/Documents/myblog-backend/src/models/global';
-export * from '/Users/zhijielu/Documents/myblog-backend/src/models/login';
-export * from '/Users/zhijielu/Documents/myblog-backend/src/models/setting';
-export * from '/Users/zhijielu/Documents/myblog-backend/src/models/user';
+export * from '/Users/zhijielu/Documents/log-backend/src/models/global';
+export * from '/Users/zhijielu/Documents/log-backend/src/models/login';
+export * from '/Users/zhijielu/Documents/log-backend/src/models/setting';
+export * from '/Users/zhijielu/Documents/log-backend/src/models/user';
 
 export interface Action<T = any> {
   type: T

@@ -3,12 +3,12 @@ import { Component } from 'react';
 import { ApplyPluginsType } from 'umi';
 import dva from 'dva';
 // @ts-ignore
-import createLoading from '/Users/zhijielu/Documents/myblog-backend/node_modules/dva-loading/dist/index.esm.js';
+import createLoading from '/Users/zhijielu/Documents/log-backend/node_modules/dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
-import ModelGlobal0 from '/Users/zhijielu/Documents/myblog-backend/src/models/global.ts';
-import ModelLogin1 from '/Users/zhijielu/Documents/myblog-backend/src/models/login.ts';
-import ModelSetting2 from '/Users/zhijielu/Documents/myblog-backend/src/models/setting.ts';
-import ModelUser3 from '/Users/zhijielu/Documents/myblog-backend/src/models/user.ts';
+import ModelGlobal0 from '/Users/zhijielu/Documents/log-backend/src/models/global.ts';
+import ModelLogin1 from '/Users/zhijielu/Documents/log-backend/src/models/login.ts';
+import ModelSetting2 from '/Users/zhijielu/Documents/log-backend/src/models/setting.ts';
+import ModelUser3 from '/Users/zhijielu/Documents/log-backend/src/models/user.ts';
 
 let app:any = null;
 

@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Base on https://github.com/umijs//Users/zhijielu/Documents/myblog-backend/node_modules/umi-request
+ * Base on https://github.com/umijs//Users/zhijielu/Documents/log-backend/node_modules/umi-request
  */
 import {
   extend,
@@ -13,14 +13,14 @@ import {
   RequestResponse,
   RequestInterceptor,
   ResponseInterceptor,
-} from '/Users/zhijielu/Documents/myblog-backend/node_modules/umi-request';
+} from '/Users/zhijielu/Documents/log-backend/node_modules/umi-request';
 // @ts-ignore
 
 import { ApplyPluginsType } from 'umi';
 import { history, plugin } from '../core/umiExports';
             
 import { message, notification } from 'antd';
-import useUmiRequest, { UseRequestProvider } from '/Users/zhijielu/Documents/myblog-backend/node_modules/@ahooksjs/use-request';
+import useUmiRequest, { UseRequestProvider } from '/Users/zhijielu/Documents/log-backend/node_modules/@ahooksjs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -36,7 +36,7 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from '/Users/zhijielu/Documents/myblog-backend/node_modules/@ahooksjs/use-request/lib/types';
+} from '/Users/zhijielu/Documents/log-backend/node_modules/@ahooksjs/use-request/lib/types';
 
 type ResultWithData<T = any> = { data?: T; [key: string]: any };
 

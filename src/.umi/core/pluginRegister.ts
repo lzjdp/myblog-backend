@@ -1,18 +1,18 @@
 // @ts-nocheck
 import { plugin } from './plugin';
-import * as Plugin_0 from '/Users/zhijielu/Documents/myblog-backend/node_modules/umi-plugin-antd-icon-config/lib/app.js';
-import * as Plugin_1 from '/Users/zhijielu/Documents/myblog-backend/src/.umi/plugin-dva/runtime.tsx';
+import * as Plugin_0 from '/Users/zhijielu/Documents/log-backend/node_modules/umi-plugin-antd-icon-config/lib/app.js';
+import * as Plugin_1 from '/Users/zhijielu/Documents/log-backend/src/.umi/plugin-dva/runtime.tsx';
 import * as Plugin_2 from '../plugin-initial-state/runtime';
-import * as Plugin_3 from '/Users/zhijielu/Documents/myblog-backend/src/.umi/plugin-locale/runtime.tsx';
+import * as Plugin_3 from '/Users/zhijielu/Documents/log-backend/src/.umi/plugin-locale/runtime.tsx';
 import * as Plugin_4 from '../plugin-model/runtime';
 
   plugin.register({
     apply: Plugin_0,
-    path: '/Users/zhijielu/Documents/myblog-backend/node_modules/umi-plugin-antd-icon-config/lib/app.js',
+    path: '/Users/zhijielu/Documents/log-backend/node_modules/umi-plugin-antd-icon-config/lib/app.js',
   });
   plugin.register({
     apply: Plugin_1,
-    path: '/Users/zhijielu/Documents/myblog-backend/src/.umi/plugin-dva/runtime.tsx',
+    path: '/Users/zhijielu/Documents/log-backend/src/.umi/plugin-dva/runtime.tsx',
   });
   plugin.register({
     apply: Plugin_2,
@@ -20,7 +20,7 @@ import * as Plugin_4 from '../plugin-model/runtime';
   });
   plugin.register({
     apply: Plugin_3,
-    path: '/Users/zhijielu/Documents/myblog-backend/src/.umi/plugin-locale/runtime.tsx',
+    path: '/Users/zhijielu/Documents/log-backend/src/.umi/plugin-locale/runtime.tsx',
   });
   plugin.register({
     apply: Plugin_4,

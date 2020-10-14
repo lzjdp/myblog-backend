@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from '/Users/zhijielu/Documents/myblog-backend/src/.umi/plugin-initial-state/models/initialState';
+import initialState from '/Users/zhijielu/Documents/log-backend/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from '/Users/zhijielu/Documents/myblog-backend/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from '/Users/zhijielu/Documents/log-backend/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
 // @ts-ignore
-import Executor from '/Users/zhijielu/Documents/myblog-backend/node_modules/@umijs/plugin-model/lib/helpers/executor';
+import Executor from '/Users/zhijielu/Documents/log-backend/node_modules/@umijs/plugin-model/lib/helpers/executor';
 // @ts-ignore
-import { UmiContext } from '/Users/zhijielu/Documents/myblog-backend/node_modules/@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from '/Users/zhijielu/Documents/log-backend/node_modules/@umijs/plugin-model/lib/helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

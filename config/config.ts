@@ -79,6 +79,18 @@ export default defineConfig({
               component: './ListTableList',
             },
             {
+              path: '/article',
+              name: '文章管理',
+              icon: '',
+              routes: [
+                {
+                  path: '/article/all',
+                  name: '所有文章',
+                  component: './article/list/index'
+                }
+              ]
+            },
+            {
               component: './404',
             },
           ],

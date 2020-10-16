@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-13 16:30:38
- * @LastEditTime: 2020-10-15 21:36:52
+ * @LastEditTime: 2020-10-16 09:28:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /log-backend/README.md
 -->
 ## 从零开始用Umi+Egg.js搭建个人博客（博客后台管理系统）
-![](https://user-images.githubusercontent.com/8186664/44953195-581e3d80-aec4-11e8-8dcb-54b9db38ec11.png)
+
 ### 1.项目介绍
 [从零开始用Umi+Egg开发博客（PC端）]()<br />
 [从零开始用Umi+Egg开发博客（后台服务）]()<br />
